@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+    <head>
+        <meta charset = "UTF-8">
+        <title>JS playplace</title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body onload = "fetchJoke()">
+        <div id = "backColorDiv"></div>
+        <div id = "backgroundContainer">
+            <h1 id = "backgroundText">Right click, inspect element, console.</h1>
+            <h3 id = "JSText"></h1>  
+            <button onclick = "fetchJoke()">Tell a joke!</button>
+        </div>
+        
+        <div id = "historyContainer">
+            <table id = "historyTable">
+                <th>Previous History:</th>
+            </table>
+    
+        </div>
+        
+        <script rel = "text/javascript" src = "pagejavascript.js"></script>
+    </body>
+</html>
